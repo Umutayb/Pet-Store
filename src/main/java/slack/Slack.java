@@ -1,9 +1,9 @@
 package slack;
 
+import api_assured.ServiceGenerator;
 import models.slack.SimpleMessageModel;
 import models.slack.ThreadMessageModel;
 import models.slack.SuccessfulMessage;
-import utils.ServiceGenerator;
 import okhttp3.MultipartBody;
 import java.io.IOException;
 import java.nio.file.Files;

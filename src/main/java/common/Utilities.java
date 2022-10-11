@@ -1,5 +1,6 @@
 package common;
 
+import api_assured.Caller;
 import com.fasterxml.jackson.databind.SerializationFeature;
 import com.fasterxml.jackson.annotation.PropertyAccessor;
 import com.fasterxml.jackson.annotation.JsonAutoDetect;

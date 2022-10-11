@@ -12,7 +12,7 @@
     <properties>
         <name>${project.name}</name>
         <cucumber.version>4.8.0</cucumber.version>
-        <api.framework.version>0.7.4</api.framework.version>
+        <api.framework.version>1.0.3</api.framework.version>
         <maven.surefire.version>2.22.1</maven.surefire.version>
         <cucumber.version>7.6.0</cucumber.version>
         <retrofit.version>2.9.0</retrofit.version>
@@ -20,10 +20,10 @@
     </properties>
 
     <dependencies>
-        <!-- Api Assured -->
+        <!-- Api Assured & Java Utilities -->
         <dependency>
             <groupId>com.github.umutayb</groupId>
-            <artifactId>api-assured</artifactId>
+            <artifactId>java-utilities</artifactId>
             <version>${api.framework.version}</version>
         </dependency>
 
@@ -85,6 +85,15 @@
             <artifactId>datatable-dependencies</artifactId>
             <version>3.0.0</version>
         </dependency>
+
+        <!-- Lombok -->
+        <dependency>
+            <groupId>org.projectlombok</groupId>
+            <artifactId>lombok</artifactId>
+            <version>1.18.24</version>
+            <scope>provided</scope>
+        </dependency>
+
     </dependencies>
 
     <repositories>
