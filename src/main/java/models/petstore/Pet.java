@@ -2,13 +2,12 @@ package models.petstore;
 
 import lombok.Data;
 import lombok.NoArgsConstructor;
-
 import java.util.List;
 
 @Data
 @NoArgsConstructor
 public class Pet {
-    Integer id;
+    Long id;
     DataModel category;
     String name;
     List<String> photoUrls;
